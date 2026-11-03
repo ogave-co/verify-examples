@@ -1,0 +1,16 @@
+# Secrets: never commit real keys
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+npm-debug.log*
+
+# PHP example runtime data
+php/data/
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/

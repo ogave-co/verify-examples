@@ -1,0 +1,17 @@
+{
+  "eventType": "com.okta.telephony.provider",
+  "eventTypeVersion": "1.0",
+  "contentType": "application/json",
+  "data": {
+    "context": { "request": { "ipAddress": "203.0.113.7" } },
+    "userProfile": { "firstName": "Ana", "lastName": "Example", "login": "ana@example.com" },
+    "messageProfile": {
+      "msgTemplate": "Your code is 418276",
+      "phoneNumber": "+573001234567",
+      "otpExpires": "2030-01-01T00:05:00.000Z",
+      "deliveryChannel": "SMS",
+      "otpCode": "418276",
+      "locale": "EN-US"
+    }
+  }
+}
